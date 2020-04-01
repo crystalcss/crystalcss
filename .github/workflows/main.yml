@@ -24,15 +24,6 @@ jobs:
       with:
         node-version: ${{ matrix.node }}
 
-    - name: Setup NPM cache
-      uses: actions/cache@v1
-      with:
-          path: ~/.npm
-          key: ${{ runner.os }}-node-v${{ matrix.node }}-${{ hashFiles('package.json') }}-${{ hashFiles('package-lock.json') }}-${{ hashFiles('.github/workflows/main.yml') }}
-          restore-keys: |
-            ${{ runner.OS }}-node-v${{ matrix.node }}-${{ hashFiles('package.json') }}-${{ hashFiles('package-lock.json') }}-${{ hashFiles('.github/workflows/main.yml') }}
-            ${{ runner.OS }}-node-v${{ matrix.node }}-
-      
     - name: Install npm dependencies
       run: npm ci
 
