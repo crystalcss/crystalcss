@@ -1,0 +1,30 @@
+{
+  "name": "crystalcss",
+  "version": "1.0.0",
+  "description": "A lightweight CSS Library",
+  "main": "package.js",
+  "scripts": {
+    "start": "npm-run-all --parallel css",
+    "css": "npm-run-all css-compile",
+    "css-compile": "node-sass --output-style expanded --source-map true --source-map-contents true --precision 5 scss/ -o build/css/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thejonathanr/crystalcss.git"
+  },
+  "keywords": [
+    "css"
+  ],
+  "author": "Jonathan Reiterman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thejonathanr/crystalcss/issues"
+  },
+  "homepage": "https://github.com/thejonathanr/crystalcss#readme",
+  "dependencies": {
+    "node-sass": "^4.13.1"
+  },
+  "devDependencies": {
+    "npm-run-all": "^4.1.5"
+  }
+}
