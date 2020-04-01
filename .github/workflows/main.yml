@@ -37,4 +37,4 @@ jobs:
       run: npm ci
 
     - name: Run CSS
-      run: npm css
+      run: npm run css
