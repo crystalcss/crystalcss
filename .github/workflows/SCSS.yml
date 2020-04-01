@@ -5,7 +5,7 @@ env:
   NODE: 10.x
 
 jobs:
-  SCSS:
+  build:
     runs-on: ubuntu-latest
 
     steps:
