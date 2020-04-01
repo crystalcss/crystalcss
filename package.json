@@ -15,6 +15,10 @@
   "keywords": [
     "css"
   ],
+  "files": [
+    "build/{css,js}/*.{css,js,map}",
+    "scss/**/*.scss"
+  ],
   "author": "Jonathan Reiterman",
   "license": "MIT",
   "bugs": {
