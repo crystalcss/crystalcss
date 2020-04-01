@@ -26,7 +26,10 @@ jobs:
       - name: Build CSS
         run: npm run css
         
-      - name: Commit SASS->CSS files
-        uses: stefanzweifel/git-auto-commit-action@v3.0.0
+      - name: push
+        uses: github-actions-x/commit@v2.5
         with:
-          commit_message: "Github Action: Compiled SCSS to CSS"
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          push-branch: master
+          commit-message: 'Auto: Compiled SCSS to CSS'
+          rebase: 'true' # pull abd rebase before commit
