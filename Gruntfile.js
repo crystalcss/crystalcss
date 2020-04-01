@@ -1,6 +1,13 @@
 module.exports = function(grunt) {
     grunt.initConfig({
         pkg: grunt.file.readJSON('package.json'),
+        githooks: {
+            all: {
+                // Will create `./git/hooks/pre-commit` file which will be used at every commit,
+                // so that to run the `jshint` and `test:unit` tasks before commit really happen.
+                'pre-commit': 'sass',
+            }
+        },
         sass: {
             dist: {
                 files: [{
@@ -14,7 +21,8 @@ module.exports = function(grunt) {
         },
     });
 
+    grunt.loadNpmTasks('grunt-githooks');
     grunt.loadNpmTasks('grunt-contrib-sass');
 
-    grunt.registerTask('default', ['sass']);
+    grunt.registerTask('default', ['githooks']);
 };

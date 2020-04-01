@@ -4,7 +4,7 @@
   "description": "A lightweight CSS Library",
   "main": "package.js",
   "scripts": {
-    "start": "grunt",
+    "start": "",
     "css": "npm-run-all css-compile",
     "css-compile": "node-sass --output-style expanded --source-map true --source-map-contents true --precision 5 scss/ -o build/css/"
   },
