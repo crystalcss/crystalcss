@@ -4,7 +4,7 @@
   "description": "A lightweight CSS Library",
   "main": "package.js",
   "scripts": {
-    "start": "default",
+    "start": "npm-run-all css",
     "css": "npm-run-all css-compile",
     "css-compile": "node-sass --output-style expanded --source-map true --source-map-contents true --precision 5 scss/ -o build/css/"
   },
@@ -29,9 +29,6 @@
     "node-sass": "^4.13.1"
   },
   "devDependencies": {
-    "grunt": "^1.1.0",
-    "grunt-contrib-sass": "^1.0.0",
-    "grunt-githooks": "^0.6.0",
     "npm-run-all": "^4.1.5"
   }
 }
