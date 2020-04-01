@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "crystal.css",
+	"sources": [
+		"../../scss/crystal.scss"
+	],
+	"sourcesContent": [
+		"h4 {\n  background-color: blue;\n}"
+	],
+	"names": [],
+	"mappings": "AAAA,AAAA,EAAE,CAAC;EACD,gBAAgB,EAAE,IAAI;CACvB"
+}
