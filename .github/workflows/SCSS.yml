@@ -1,10 +1,10 @@
 name: SCSS
 on:
   push:
-    files:
+    paths:
       - "scss/"
   pull_request:
-    files:
+    paths:
       - "scss/"
 env:
   CI: true
