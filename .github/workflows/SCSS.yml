@@ -32,5 +32,6 @@ jobs:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           push-branch: master
           files: build/css
+          force-add: 'true'
           commit-message: 'Auto: Compiled SCSS to CSS'
           rebase: 'true' # pull abd rebase before commit
