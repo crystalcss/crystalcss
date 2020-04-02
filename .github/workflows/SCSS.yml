@@ -5,8 +5,10 @@ env:
   NODE: 10.x
 
 jobs:
-  build:
+  createcss:
     runs-on: ubuntu-latest
+    paths:
+      - 'scss/**'
 
     steps:
       - name: Clone repository
@@ -26,16 +28,9 @@ jobs:
       - name: Build CSS
         run: npm run css
 
-      - name: push
-        uses: github-actions-x/commit@v2.5
+      - name: Git Auto Commit
+        uses: stefanzweifel/git-auto-commit-action@v4.1.1
         with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          push-branch: 'master'
-          commit-message: 'Automation: Created CSS from SCSS files'
-          force-add: 'true'
-          files: '*.css'
-
-      - name: Push changes
-        uses: ad-m/github-push-action@master
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          commit_message: "Automation: Created CSS files from SCSS directory"
+          branch: ${{ github.head_ref }}
+          file_pattern: /home/runner/work/crystalcss/crystalcss/build/css/
