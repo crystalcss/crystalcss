@@ -34,3 +34,8 @@ jobs:
           commit-message: 'Automation: Created CSS from SCSS files'
           force-add: 'true'
           files: '*.css'
+
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
