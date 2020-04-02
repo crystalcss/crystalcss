@@ -1,1 +1,9 @@
 /node_modules/
+
+# Local Development, compiled files
+/local_dev/
+
+.idea
+/.idea/
+.project
+.settings
