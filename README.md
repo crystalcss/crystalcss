@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/crystalcss/crystalcss/blob/master/.github/crystalcss-tiny.jpg" width="108" height="108"></img>
+  <img src="https://github.com/crystalcss/crystalcss/blob/master/.github/crystalcss-tiny.jpg" width="108" height="108" alt="CrystalCSS Logo">
 </p>
 
 <h3 align="center">
