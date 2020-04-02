@@ -33,4 +33,3 @@ jobs:
           push-branch: 'master'
           commit-message: 'Automation: Created CSS from SCSS files'
           force-add: 'true'
-          files: /home/runner/work/crystalcss/crystalcss/build/css/
