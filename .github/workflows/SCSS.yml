@@ -29,5 +29,6 @@ jobs:
       - name: Git Auto Commit
         uses: stefanzweifel/git-auto-commit-action@v4.1.1
         with:
-          # Commit message
           commit_message: "Auto Commit"
+          branch: ${{ github.head_ref }}
+          file_pattern: build/css/\.css
