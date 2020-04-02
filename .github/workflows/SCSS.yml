@@ -25,13 +25,18 @@ jobs:
 
       - name: Build CSS
         run: npm run css
-        
-      - name: push
-        uses: github-actions-x/commit@v2.5
+      
+      - name: GitHub Push
+        uses: ad-m/github-push-action@v0.5.0
         with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          push-branch: master
-          files: build/css
-          force-add: 'true'
-          commit-message: 'Auto: Compiled SCSS to CSS'
-          rebase: 'true' # pull abd rebase before commit
+          force: 'true'
+        
+      #- name: push
+      #  uses: github-actions-x/commit@v2.5
+      #  with:
+      #    github-token: ${{ secrets.GITHUB_TOKEN }}
+      #    push-branch: master
+      #    files: build/css
+      #    force-add: 'true'
+      #    commit-message: 'Auto: Compiled SCSS to CSS'
+      #    rebase: 'true' # pull abd rebase before commit
