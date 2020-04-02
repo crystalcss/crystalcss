@@ -26,10 +26,8 @@ jobs:
       - name: Build CSS
         run: npm run css
       
-      - name: push
-        uses: github-actions-x/commit@v2.5
+      - name: Git Auto Commit
+        uses: stefanzweifel/git-auto-commit-action@v4.1.1
         with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          push-branch: master
-          commit-message: 'Auto: Compiled SCSS to CSS'
-          rebase: 'true' # pull abd rebase before commit
+          # Commit message
+          commit_message: "Auto Commit"
