@@ -5,8 +5,8 @@
 		"../../scss/crystal.scss"
 	],
 	"sourcesContent": [
-		"h4 {\n  background-color: blue;\n  color: white;\n}"
+		"h4 {\n  background-color: blue;\n  color: white;\n  font-family: \"Helvetica Neue\";\n  font-weight: bold;\n}"
 	],
 	"names": [],
-	"mappings": "AAAA,AAAA,EAAE,CAAC;EACD,gBAAgB,EAAE,IAAI;EACtB,KAAK,EAAE,KAAK;CACb"
+	"mappings": "AAAA,AAAA,EAAE,CAAC;EACD,gBAAgB,EAAE,IAAI;EACtB,KAAK,EAAE,KAAK;EACZ,WAAW,EAAE,gBAAgB;EAC7B,WAAW,EAAE,IAAI;CAClB"
 }
