@@ -1,5 +1,11 @@
 name: SCSS
-on: [push, pull_request]
+on:
+  push:
+    files:
+      - "scss/"
+  pull_request:
+    files:
+      - "scss/"
 env:
   CI: true
   NODE: 10.x
@@ -30,6 +36,6 @@ jobs:
       - name: Git Auto Commit
         uses: stefanzweifel/git-auto-commit-action@v4.1.1
         with:
-          commit_message: "Automation: Created CSS files from SCSS directory"
+          commit_message: "Automation: SCSS->CSS"
           branch: ${{ github.head_ref }}
           file_pattern: /home/runner/work/crystalcss/crystalcss/build/css/
