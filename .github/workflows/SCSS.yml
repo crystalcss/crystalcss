@@ -31,4 +31,4 @@ jobs:
         with:
           commit_message: "Auto Commit"
           branch: ${{ github.head_ref }}
-          file_pattern: build/css/\.css
+          file_pattern: /home/runner/work/crystalcss/crystalcss/build/css/
