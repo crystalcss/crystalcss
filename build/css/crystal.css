@@ -178,4 +178,22 @@
   font-size: 280%;
 }
 
+p, i, label, button, input, body {
+  font-family: 'Helvetica', 'Arial', sans-serif;
+  font-weight: 100;
+}
+
+b {
+  font-family: 'Helvetica', 'Arial', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+}
+
+h3 {
+  margin-top: 14px;
+  margin-bottom: 13px;
+}
+
 /*# sourceMappingURL=crystal.css.map */
