@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/crystalcss/crystalcss/blob/master/.github/crystalcss-tiny.jpg" width="108" height="108" alt="CrystalCSS Logo">
+  <img src="https://raw.githack.com/crystalcss/crystalcss/master/.github/crystalcss-tiny.jpg" width="108" height="108" alt="CrystalCSS Logo">
 </p>
 
 <h3 align="center">
@@ -15,6 +15,6 @@ Our goal is to help get your website off the ground quickly with minimal styling
 ---
 ### License
 
-![Image of License](https://github.com/crystalcss/crystalcss/blob/master/.github/license.png)
+![Image of License](https://raw.githack.com/crystalcss/crystalcss/master/.github/license.png)
 
 You can check out the full MIT license file [here](https://github.com/crystalcss/crystalcss/blob/master/LICENSE)
