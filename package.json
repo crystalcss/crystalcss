@@ -1,6 +1,6 @@
 {
   "name": "crystalcss",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "version_short": "0.1",
   "description": "A lightweight CSS Library",
   "homepage": "https://github.com/thejonathanr/crystalcss#readme",
@@ -27,10 +27,8 @@
   "bugs": {
     "url": "https://github.com/thejonathanr/crystalcss/issues"
   },
-  "dependencies": {
-    "node-sass": "^4.13.1"
-  },
   "devDependencies": {
+    "node-sass": "^4.13.1",
     "npm-run-all": "^4.1.5"
   },
   "files": [
