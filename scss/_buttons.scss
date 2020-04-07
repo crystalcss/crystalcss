@@ -3,15 +3,7 @@
 //
 
 // Colour Variables
-$colour-base: #EBEBEB;
-$colour-red: #D43535;
-$colour-orange: #D47A35;
-$colour-yellow: #D4BE35;//#D4BC35;
-$colour-green: #35D43D;
-$colour-light-blue: #35D4CC;
-$colour-blue: #3572D4;
-$colour-purple: #7A35D4;
-$colour-black: #111111;
+
 
 @mixin colourize($_colour) {
   background-color: $_colour;
@@ -29,22 +21,23 @@ $colour-black: #111111;
     &:hover {
       background-color: darken($_colour, 5%);
     }
-    &:focus {
+    &:active {
       background-color: darken($_colour, 10%);
-      outline: 0;
     }
   } @else {
     &:hover {
       background-color: lighten($_colour, 10%);
     }
-    &:focus {
+    &:active {
       background-color: lighten($_colour, 18%);
-      outline: 0;
     }
+  }
+  &:focus {
+    outline: 0;
   }
 }
 
-.button {
+.ccss-button {
   @include colourize($colour-base);
   display: inline-block;
   line-height: normal;
@@ -59,61 +52,61 @@ $colour-black: #111111;
   border-radius: 4px;
 }
 
-.button.red{
+.ccss-button.red{
   @include colourize($colour-red);
 }
-.button.orange {
+.ccss-button.orange {
   @include colourize($colour-orange);
 }
-.button.yellow {
+.ccss-button.yellow {
   @include colourize($colour-yellow);
 }
-.button.green{
+.ccss-button.green{
   @include colourize($colour-green);
 }
-.button.light-blue {
+.ccss-button.light-blue {
   @include colourize($colour-light-blue);
 }
-.button.blue {
+.ccss-button.blue {
   @include colourize($colour-blue);
 }
-.button.purple {
+.ccss-button.purple {
   @include colourize($colour-purple);
 }
-.button.black {
+.ccss-button.black {
   @include colourize($colour-black);
 }
 
 // Border radius
-.button.square {
+.ccss-button.square {
   border-radius: 0;
 }
-.button.round {
+.ccss-button.round {
   border-radius: 12px;
 }
-.button.rounder {
+.ccss-button.rounder {
   border-radius: 18px;
 }
 
 // Sizes
-.button.size-xsmall {
+.ccss-button.size-xsmall {
   font-size: 60%;
 }
-.button.size-small {
+.ccss-button.size-small {
   font-size: 80%;
 }
-.button.size-normal {
+.ccss-button.size-normal {
   font-size: 100%;
 }
-.button.size-large {
+.ccss-button.size-large {
   font-size: 125%;
 }
-.button.size-xlarge {
+.ccss-button.size-xlarge {
   font-size: 160%
 }
-.button.size-xxlarge {
+.ccss-button.size-xxlarge {
   font-size: 200%;
 }
-.button.size-xxxlarge {
+.ccss-button.size-xxxlarge {
   font-size: 280%;
 }

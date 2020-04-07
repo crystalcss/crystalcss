@@ -23,3 +23,12 @@ h3 {
   margin-top: 14px;
   margin-bottom: 13px;
 }
+
+a {
+  text-decoration: none;
+  color: $colour-true-black;
+}
+a:hover {
+  text-decoration: underline;
+  color: $colour-blue;
+}

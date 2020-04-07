@@ -1,7 +1,7 @@
 /*
  * Licensed under MIT (https://github.com/crystalcss/crystalcss/blob/master/LICENSE)
  */
-.button {
+.ccss-button {
   background-color: #EBEBEB;
   color: #111111;
   display: inline-block;
@@ -17,164 +17,164 @@
   border-radius: 4px;
 }
 
-.button:hover {
+.ccss-button:hover {
   background-color: #dedede;
 }
 
-.button:focus {
+.ccss-button:focus {
   background-color: #d2d2d2;
   outline: 0;
 }
 
-.button.red {
+.ccss-button.red {
   background-color: #D43535;
   color: #ffffff;
 }
 
-.button.red:hover {
+.ccss-button.red:hover {
   background-color: #c52a2a;
 }
 
-.button.red:focus {
+.ccss-button.red:focus {
   background-color: #b02626;
   outline: 0;
 }
 
-.button.orange {
+.ccss-button.orange {
   background-color: #D47A35;
   color: #ffffff;
 }
 
-.button.orange:hover {
+.ccss-button.orange:hover {
   background-color: #c56d2a;
 }
 
-.button.orange:focus {
+.ccss-button.orange:focus {
   background-color: #b06226;
   outline: 0;
 }
 
-.button.yellow {
+.ccss-button.yellow {
   background-color: #D4BE35;
   color: #ffffff;
 }
 
-.button.yellow:hover {
+.ccss-button.yellow:hover {
   background-color: #c5b02a;
 }
 
-.button.yellow:focus {
+.ccss-button.yellow:focus {
   background-color: #b09d26;
   outline: 0;
 }
 
-.button.green {
+.ccss-button.green {
   background-color: #35D43D;
   color: #ffffff;
 }
 
-.button.green:hover {
+.ccss-button.green:hover {
   background-color: #2ac532;
 }
 
-.button.green:focus {
+.ccss-button.green:focus {
   background-color: #26b02d;
   outline: 0;
 }
 
-.button.light-blue {
+.ccss-button.light-blue {
   background-color: #35D4CC;
   color: #ffffff;
 }
 
-.button.light-blue:hover {
+.ccss-button.light-blue:hover {
   background-color: #2ac5be;
 }
 
-.button.light-blue:focus {
+.ccss-button.light-blue:focus {
   background-color: #26b0a9;
   outline: 0;
 }
 
-.button.blue {
+.ccss-button.blue {
   background-color: #3572D4;
   color: #ffffff;
 }
 
-.button.blue:hover {
+.ccss-button.blue:hover {
   background-color: #2a66c5;
 }
 
-.button.blue:focus {
+.ccss-button.blue:focus {
   background-color: #265bb0;
   outline: 0;
 }
 
-.button.purple {
+.ccss-button.purple {
   background-color: #7A35D4;
   color: #ffffff;
 }
 
-.button.purple:hover {
+.ccss-button.purple:hover {
   background-color: #6d2ac5;
 }
 
-.button.purple:focus {
+.ccss-button.purple:focus {
   background-color: #6226b0;
   outline: 0;
 }
 
-.button.black {
+.ccss-button.black {
   background-color: #111111;
   color: #ffffff;
 }
 
-.button.black:hover {
+.ccss-button.black:hover {
   background-color: #2b2b2b;
 }
 
-.button.black:focus {
+.ccss-button.black:focus {
   background-color: #3f3f3f;
   outline: 0;
 }
 
-.button.square {
+.ccss-button.square {
   border-radius: 0;
 }
 
-.button.round {
+.ccss-button.round {
   border-radius: 12px;
 }
 
-.button.rounder {
+.ccss-button.rounder {
   border-radius: 18px;
 }
 
-.button.size-xsmall {
+.ccss-button.size-xsmall {
   font-size: 60%;
 }
 
-.button.size-small {
+.ccss-button.size-small {
   font-size: 80%;
 }
 
-.button.size-normal {
+.ccss-button.size-normal {
   font-size: 100%;
 }
 
-.button.size-large {
+.ccss-button.size-large {
   font-size: 125%;
 }
 
-.button.size-xlarge {
+.ccss-button.size-xlarge {
   font-size: 160%;
 }
 
-.button.size-xxlarge {
+.ccss-button.size-xxlarge {
   font-size: 200%;
 }
 
-.button.size-xxxlarge {
+.ccss-button.size-xxxlarge {
   font-size: 280%;
 }
 
