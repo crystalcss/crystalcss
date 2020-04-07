@@ -21,8 +21,11 @@
   background-color: #dedede;
 }
 
-.ccss-button:focus {
+.ccss-button:active {
   background-color: #d2d2d2;
+}
+
+.ccss-button:focus {
   outline: 0;
 }
 
@@ -35,8 +38,11 @@
   background-color: #c52a2a;
 }
 
-.ccss-button.red:focus {
+.ccss-button.red:active {
   background-color: #b02626;
+}
+
+.ccss-button.red:focus {
   outline: 0;
 }
 
@@ -49,8 +55,11 @@
   background-color: #c56d2a;
 }
 
-.ccss-button.orange:focus {
+.ccss-button.orange:active {
   background-color: #b06226;
+}
+
+.ccss-button.orange:focus {
   outline: 0;
 }
 
@@ -63,36 +72,45 @@
   background-color: #c5b02a;
 }
 
-.ccss-button.yellow:focus {
+.ccss-button.yellow:active {
   background-color: #b09d26;
+}
+
+.ccss-button.yellow:focus {
   outline: 0;
 }
 
 .ccss-button.green {
-  background-color: #35D43D;
+  background-color: #30BF45;
   color: #ffffff;
 }
 
 .ccss-button.green:hover {
-  background-color: #2ac532;
+  background-color: #2bab3e;
+}
+
+.ccss-button.green:active {
+  background-color: #269636;
 }
 
 .ccss-button.green:focus {
-  background-color: #26b02d;
   outline: 0;
 }
 
 .ccss-button.light-blue {
-  background-color: #35D4CC;
+  background-color: #34C4CF;
   color: #ffffff;
 }
 
 .ccss-button.light-blue:hover {
-  background-color: #2ac5be;
+  background-color: #2db3bd;
+}
+
+.ccss-button.light-blue:active {
+  background-color: #289fa8;
 }
 
 .ccss-button.light-blue:focus {
-  background-color: #26b0a9;
   outline: 0;
 }
 
@@ -105,8 +123,11 @@
   background-color: #2a66c5;
 }
 
-.ccss-button.blue:focus {
+.ccss-button.blue:active {
   background-color: #265bb0;
+}
+
+.ccss-button.blue:focus {
   outline: 0;
 }
 
@@ -119,8 +140,11 @@
   background-color: #6d2ac5;
 }
 
-.ccss-button.purple:focus {
+.ccss-button.purple:active {
   background-color: #6226b0;
+}
+
+.ccss-button.purple:focus {
   outline: 0;
 }
 
@@ -133,8 +157,11 @@
   background-color: #2b2b2b;
 }
 
-.ccss-button.black:focus {
+.ccss-button.black:active {
   background-color: #3f3f3f;
+}
+
+.ccss-button.black:focus {
   outline: 0;
 }
 
@@ -191,9 +218,23 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
 }
 
+h2 {
+  margin: 0;
+}
+
 h3 {
   margin-top: 14px;
   margin-bottom: 13px;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #3572D4;
 }
 
 /*# sourceMappingURL=crystal.css.map */
