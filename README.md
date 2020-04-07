@@ -14,10 +14,8 @@ Our goal is to help get your website off the ground quickly with minimal styling
 
 ---
 ### Installation
-
-Include this in your HTML file:`<link rel="stylesheet" href="https://unpkg.com/crystalcss/build/css/crystal.css">`
-
-Download using [NPM](https://www.npmjs.com/): `$ npm install crystalcss`
+* Include this in your HTML file:`<link rel="stylesheet" href="https://unpkg.com/crystalcss/build/css/crystal.css">`
+* Download using [NPM](https://www.npmjs.com/): `$ npm install crystalcss`
 
 ---
 ### License
