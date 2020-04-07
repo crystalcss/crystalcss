@@ -2,10 +2,10 @@ name: SCSS
 on:
   push:
     paths:
-      - "scss/"
+      - "scss/**"
   pull_request:
     paths:
-      - "scss/"
+      - "scss/**"
 env:
   CI: true
   NODE: 10.x
