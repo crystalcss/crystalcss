@@ -13,6 +13,13 @@
 Our goal is to help get your website off the ground quickly with minimal styling, on your end. Less time spent trying to figure out **CSS** equals more time to work on important things, like backend development, or doing fun things with JQuerry!
 
 ---
+### Installation
+
+Include this in your HTML file:`<link rel="stylesheet" href="https://unpkg.com/crystalcss/build/css/crystal.css">`
+
+Download using [NPM](https://www.npmjs.com/): ` $ npm i crystalcss`
+
+---
 ### License
 
 ![Image of License](https://raw.githack.com/crystalcss/crystalcss/master/.github/license.png)
