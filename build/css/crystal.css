@@ -359,6 +359,13 @@ a:hover {
   color: #3572D4;
 }
 
+/*
+Custom Styles
+ */
+.ccss-center, .ccss-centre, .ccss-centered, ccss-centred {
+  text-align: center;
+}
+
 input[type="text"] {
   font-size: 16px;
   border: 1px solid #cdcdcd;
