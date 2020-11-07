@@ -6,5 +6,38 @@
   padding-right: 30%;
 }
 .content {
+  width: 100%;
+  overflow: hidden;
+}
 
+.header h1 {
+  margin-top: 18px;
+  margin-bottom: 18px;
+}
+
+.ccss-center, .ccss-centre, .ccss-centered, .ccss-centred {
+  text-align: center;
+}
+
+hr.ccss-break {
+  margin-left: 4px;
+  margin-right: 4px;
+  border-style: none;
+  border-bottom: 1px solid gray;
+}
+code {
+  font-family: "Courier New", monospace;
+  border: 1px solid #e6e6e6;
+  border-radius: 4px;
+  background: #ededed;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+code.scrollable {
+  white-space: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
+  display: block;
 }
