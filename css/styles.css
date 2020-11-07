@@ -1,9 +1,9 @@
 .container {
-  width: 100vw;
   padding-top: 0;
   padding-bottom: 0;
   padding-left: 30%;
   padding-right: 30%;
+  overflow: hidden;
 }
 .content {
   width: 100%;
@@ -20,6 +20,8 @@
 }
 
 hr.ccss-break {
+  margin-top: 20px;
+  margin-bottom: 20px;
   margin-left: 10px;
   margin-right: 10px;
   border-style: none;
@@ -31,8 +33,8 @@ hr.ccss-break.medium {
   border-bottom: 1px solid gray;
 }
 hr.ccss-break.small {
-  margin-left: 80px;
-  margin-right: 80px;
+  margin-left: 90px;
+  margin-right: 90px;
   border-bottom: 1px solid lightgray;
 }
 code {
@@ -54,4 +56,8 @@ code.scrollable {
 
 .documentation {
 
+}
+
+.btn-fixed-width button {
+  width: 180px;
 }
