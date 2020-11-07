@@ -20,10 +20,20 @@
 }
 
 hr.ccss-break {
-  margin-left: 4px;
-  margin-right: 4px;
+  margin-left: 10px;
+  margin-right: 10px;
   border-style: none;
   border-bottom: 1px solid gray;
+}
+hr.ccss-break.medium {
+  margin-left: 50px;
+  margin-right: 50px;
+  border-bottom: 1px solid gray;
+}
+hr.ccss-break.small {
+  margin-left: 80px;
+  margin-right: 80px;
+  border-bottom: 1px solid lightgray;
 }
 code {
   font-family: "Courier New", monospace;
@@ -40,4 +50,8 @@ code.scrollable {
   overflow-x: auto;
   overflow-y: hidden;
   display: block;
+}
+
+.documentation {
+
 }
