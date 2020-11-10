@@ -25,26 +25,32 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
+  font-size: 3em;
   @include margins(18px, 18px);
 }
 
 h2 {
+  font-size: 2em;
   @include margins(16px, 16px);
 }
 
 h3 {
+  font-size: 1.5em;
   @include margins(14px, 14px);
 }
 
 h4 {
+  font-size: 1.17em;
   @include margins(12px, 12px);
 }
 
 h5 {
+  font-size: 1em;
   @include margins(10px, 10px);
 }
 
 h6 {
+  font-size: 0.85em;
   @include margins(8px, 8px);
 }
 
