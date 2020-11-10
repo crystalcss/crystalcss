@@ -52,27 +52,34 @@
   border-radius: 4px;
 }
 
-.ccss-button.red{
+.ccss-button.red {
   @include colourize($colour-red);
 }
+
 .ccss-button.orange {
   @include colourize($colour-orange);
 }
+
 .ccss-button.yellow {
   @include colourize($colour-yellow);
 }
-.ccss-button.green{
+
+.ccss-button.green {
   @include colourize($colour-green);
 }
+
 .ccss-button.light-blue {
   @include colourize($colour-light-blue);
 }
+
 .ccss-button.blue {
   @include colourize($colour-blue);
 }
+
 .ccss-button.purple {
   @include colourize($colour-purple);
 }
+
 .ccss-button.black {
   @include colourize($colour-black);
 }
@@ -81,9 +88,11 @@
 .ccss-button.square {
   border-radius: 0;
 }
+
 .ccss-button.round {
   border-radius: 12px;
 }
+
 .ccss-button.rounder {
   border-radius: 18px;
 }
@@ -92,21 +101,27 @@
 .ccss-button.size-xsmall {
   font-size: 60%;
 }
+
 .ccss-button.size-small {
   font-size: 80%;
 }
+
 .ccss-button.size-normal {
   font-size: 100%;
 }
+
 .ccss-button.size-large {
   font-size: 125%;
 }
+
 .ccss-button.size-xlarge {
   font-size: 160%
 }
+
 .ccss-button.size-xxlarge {
   font-size: 200%;
 }
+
 .ccss-button.size-xxxlarge {
   font-size: 280%;
 }
