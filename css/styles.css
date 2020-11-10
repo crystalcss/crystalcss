@@ -53,6 +53,9 @@ code.scrollable {
   overflow-y: hidden;
   display: block;
 }
+code.full {
+  display: block;
+}
 
 .documentation {
 
