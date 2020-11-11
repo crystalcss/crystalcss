@@ -15,24 +15,28 @@
   margin-bottom: 18px;
 }
 
-.ccss-center, .ccss-centre, .ccss-centered, .ccss-centred {
+.ccss-center, .ccss-centre, .ccss-centered, .ccss-centred { /* TODO */
   text-align: center;
 }
 
-hr.ccss-break {
-  margin-top: 20px;
-  margin-bottom: 20px;
+hr.ccss-break { /* TODO */
+  margin-top: 30px;
+  margin-bottom: 30px;
   margin-left: 10px;
   margin-right: 10px;
   border-style: none;
   border-bottom: 1px solid gray;
 }
-hr.ccss-break.medium {
+hr.ccss-break.medium { /* TODO */
+  margin-top: 25px;
+  margin-bottom: 25px;
   margin-left: 50px;
   margin-right: 50px;
   border-bottom: 1px solid gray;
 }
-hr.ccss-break.small {
+hr.ccss-break.small { /* TODO */
+  margin-top: 20px;
+  margin-bottom: 20px;
   margin-left: 90px;
   margin-right: 90px;
   border-bottom: 1px solid lightgray;
@@ -58,7 +62,7 @@ code.full {
 }
 
 .documentation {
-
+  margin-bottom: 50px;
 }
 
 .btn-fixed-width button {
