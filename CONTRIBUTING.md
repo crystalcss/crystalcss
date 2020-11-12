@@ -22,12 +22,16 @@ root
   |         | ----- crystalcss.scss
   |         | ----- _buttons.scss
   |         | ----- _text.scss
-  |         | ----- etc etc
+  |         | ----- etc
   |
   | ----- js/ (other files you might want to modify!)
   |
   | ----- build/ (the directory that github generates the css & minified css files)
-            | ----- css/
-            | ----- js/
+  |         | ----- css/
+  |         | ----- js/
+  |  
+  | ----- .gitignore
+  | ----- package.json
+  | ----- etc
 ```
 Feel free to contact me if you are still lost, I will happily explain.
