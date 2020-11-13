@@ -68,3 +68,24 @@ code.full {
 .btn-fixed-width button {
   width: 180px;
 }
+
+/* TODO: Clean up this, and unify with .ccss-flexbox elements */
+.example-container {
+  display: flex;
+  flex-flow: column;
+  margin: 2px;
+  float: left;
+  width: 600px;
+  height: 600px;
+  border: 2px solid black;
+}
+.example-container h4 {
+  margin: 0;
+  flex: 0 1 auto;
+  border-bottom: 2px solid black;
+}
+.example {
+  flex-shrink: 1;
+  flex-grow: 1;
+  flex-basis: auto;
+}
