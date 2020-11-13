@@ -38,7 +38,7 @@
       <hr class="ccss-break medium"/>
       <div class="documentation">
         <h2>Documentation</h2>
-        <a href="#doc-text">Text</a> | <a href="#doc-buttons">Buttons</a> | <a href="#doc-forms">Forms & Input Elements</a> | <a href="#layout">Layout</a>
+        <a href="#doc-text">Text</a> | <a href="#doc-buttons">Buttons</a> | <a href="#doc-forms">Forms & Input Elements</a> | <a href="#doc-layout">Layout</a>
         <br><br>
         <hr class="ccss-break small"/>
         <div id="doc-text">
@@ -99,6 +99,7 @@
             </div>
 
             <div>
+              <b>Button Colours</b>
               <p>Included with CrystalCSS are 8 different colour variants for buttons:</p>
               <button class="ccss-button red">Red</button>
               <button class="ccss-button orange">Orange</button>
@@ -124,16 +125,24 @@
             </div>
 
             <div>
-              <p>Special Buttons:</p>
-              <button class="ccss-button square">Square Button</button>
-              <button class="ccss-button round">Round Button</button>
-              <button class="ccss-button rounder">Rounder Button</button>
+              <b>Special Buttons</b>
+              <br>
+              <button class="ccss-button square">Square Edges</button>
+              <button class="ccss-button round">Round Edges</button>
+              <button class="ccss-button rounder">Rounder Edges</button>
               <br>
               <br>
+              <code class="scrollable">
+                &lt;button class="ccss-button square"&gt;Square Edges&lt;/button&gt;<br>
+                &lt;button class="ccss-button round"&gt;Round Edges&lt;/button&gt;<br>
+                &lt;button class="ccss-button rounder"&gt;Rounder Edges&lt;/button&gt;
+              </code>
+              <br><br>
             </div>
 
             <div>
-              <p>Button Sizes:</p>
+              <b>Button Sizes</b>
+              <br>
               <button class="ccss-button size-xsmall">Size-xsmall</button><br>
               <button class="ccss-button size-small">Size-small</button><br>
               <button class="ccss-button size-normal">Size-normal</button><br>
@@ -141,6 +150,22 @@
               <button class="ccss-button size-xlarge">Size-xlarge</button><br>
               <button class="ccss-button size-xxlarge">Size-xxlarge</button><br>
               <button class="ccss-button size-xxxlarge">Size-xxxlarge</button>
+              <br>
+              <br>
+              <code class="scrollable">
+                &lt;button class="ccss-button size-xsmall"&gt;Size-xsmall&lt;/button&gt;<br>
+                &lt;button class="ccss-button size-small"&gt;Size-small&lt;/button&gt;<br>
+                &lt;button class="ccss-button size-normal"&gt;Size-normal&lt;/button&gt;<br>
+                &lt;button class="ccss-button size-large"&gt;Size-large&lt;/button&gt;<br>
+                &lt;button class="ccss-button size-xlarge"&gt;Size-xlarge&lt;/button&gt;<br>
+                &lt;button class="ccss-button size-xxlarge"&gt;Size-xxlarge&lt;/button&gt;<br>
+                &lt;button class="ccss-button size-xxxlarge"&gt;Size-xxxlarge&lt;/button&gt;
+              </code>
+              <br><br>
+            </div>
+            <div>
+              <p>Of course, all of these styles are stackable:</p>
+              <button class="ccss-button size-xlarge rounder purple">Super-duper fancy button!</button>
             </div>
           </div>
         </div>
@@ -149,12 +174,28 @@
           <h3>Forms & Input Elements</h3>
           <p>Here is an example of how the different form/input elements look when using CrystalCSS.</p>
           <form>
-            <label><input type="radio">Input-radio</label><br>
-            <label><input type="checkbox">Input-checkbox</label><br>
-            <label><input type="button" class="ccss-button" value="Input-button">Input-button (can use any ccss-button styles!)</label><br>
-            <label><input type="text">Input-text</label><br>
-            <label><input type="text" class="round">Input-text round</label><br>
+            <b>Radio Elements</b><br>
+            <label><input type="radio" name="example">Option One</label><br>
+            <label><input type="radio" name="example" checked>Option Two</label><br>
+            <br>
+            <b>Check Box Elements</b><br>
+            <label><input type="checkbox">Option 1</label><br>
+            <label><input type="checkbox" checked>Option 2</label><br>
+            <br>
+            <b>Button Elements</b><br>
+            <label><input type="button" class="ccss-button" value="Input Button"> Input Button (can use any ccss-button styles!)</label><br>
+            <br>
+            <b>Textbox Elements</b><br>
+            <label><input type="text" placeholder="Normal Textbox"></label><br>
+            <label><input type="text" placeholder="Round Textbox" class="round"></label><br>
+            <br>
+            <b>Text Area Elements</b><br>
+            <label><textarea></textarea></label>
           </form>
+        </div>
+        <hr class="ccss-break small"/>
+        <div id="doc-layout">
+          <h3>Layout</h3>
         </div>
       </div>
     </div>
