@@ -65,6 +65,31 @@ html, body {
   flex-basis: auto;
 }
 
+hr.ccss-break {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-style: none;
+  border-bottom: 1px solid gray;
+}
+
+hr.ccss-break.medium {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: 50px;
+  margin-right: 50px;
+  border-bottom: 1px solid gray;
+}
+
+hr.ccss-break.small {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 90px;
+  margin-right: 90px;
+  border-bottom: 1px solid lightgray;
+}
+
 .ccss-button {
   background-color: #E6E6E6;
   color: #111111;
