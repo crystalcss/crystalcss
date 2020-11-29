@@ -1,0 +1,5 @@
+# Browsers that are supported
+
+defaults
+last 2 versions
+> 0.2%

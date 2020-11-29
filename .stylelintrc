@@ -1,0 +1,30 @@
+{
+  "rules": {
+    "indentation": 2,
+    "color-no-invalid-hex": true,
+    "unit-no-unknown": true,
+    "color-named": [
+      "never",
+      {
+        "severity": "warning"
+      }
+    ],
+    "color-hex-case": "upper",
+    "color-hex-length": "long",
+    "unit-case": "lower",
+    "rule-empty-line-before": [
+      "always-multi-line",
+      {
+        "ignore": [
+          "after-comment",
+          "first-nested"
+        ]
+      }
+    ],
+    "selector-list-comma-space-after": "always",
+    "declaration-colon-space-before": "never",
+    "declaration-colon-space-after": "always",
+    "property-case": "lower",
+    "string-quotes": "double"
+  }
+}
