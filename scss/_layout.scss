@@ -11,63 +11,65 @@ html, body {
 // Flex display content
 //
 
+@mixin _display_flex($_direction) {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: flex;
+  -webkit-flex-direction: $_direction;
+  -ms-flex-direction: $_direction;
+  flex-direction: $_direction;
+}
+
+@mixin _flex($_grow, $_shrink, $_basis: 0) {
+  // Flex Basis needs to be explicitly set to 0 for flexbox to work in Safari
+  -webkit-flex: $_grow $_shrink $_basis;
+  -ms-flex: $_grow $_shrink $_basis;
+  flex: $_grow $_shrink $_basis;
+}
+
 
 // Flex Column
 .ccss-flex-container-col {
-  display: flex;
-  flex-flow: column;
+  @include _display_flex(column);
   height: 100%;
 }
 
 .ccss-flex-container-col .ccss-flex-header {
-  flex-shrink: 1;
-  flex-grow: 0;
-  flex-basis: auto;
+  @include _flex(0, 1);
   border-bottom: 1px solid $colour-base;
 }
 
 .ccss-flex-container-col .ccss-flex-content {
-  flex-shrink: 1;
-  flex-grow: 1;
-  flex-basis: auto;
+  @include _flex(1, 1);
   overflow-y: auto;
 }
 
 .ccss-flex-container-col .ccss-flex-footer {
-  flex-shrink: 1;
-  flex-grow: 0;
-  flex-basis: auto;
+  @include _flex(0, 1);
   border-top: 1px solid $colour-base;
 }
 
 
 // Flex Row
 .ccss-flex-container-row {
-  display: flex;
-  flex-flow: row;
-  width: 100%;
+  @include _display_flex(row);
   height: 100%;
 }
 
 .ccss-flex-container-row .ccss-flex-hard-left {
-  flex-shrink: 1;
-  flex-grow: 0;
-  flex-basis: auto;
+  @include _flex(0, 1);
   border-right: 1px solid $colour-base;
 }
 
 .ccss-flex-container-row .ccss-flex-content {
-  flex-shrink: 1;
-  flex-grow: 1;
-  flex-basis: auto;
+  @include _flex(1, 1);
   overflow-y: auto;
   border-right: 1px solid $colour-base;
 }
 
 .ccss-flex-container-row .ccss-flex-hard-right {
-  flex-shrink: 1;
-  flex-grow: 0;
-  flex-basis: auto;
+  @include _flex(0, 1);
 }
 
 
