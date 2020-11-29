@@ -170,7 +170,6 @@ hr.ccss-break.small {
 
 [class*=h-] {
   float: left;
-  overflow-x: scroll;
 }
 
 .h-100 {
