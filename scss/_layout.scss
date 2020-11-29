@@ -12,19 +12,12 @@ html, body {
 //
 
 @mixin _display_flex($_direction) {
-  display: -webkit-flex;
-  display: -moz-flex;
-  display: -ms-flex;
   display: flex;
-  -webkit-flex-direction: $_direction;
-  -ms-flex-direction: $_direction;
   flex-direction: $_direction;
 }
 
 @mixin _flex($_grow, $_shrink, $_basis: 0) {
   // Flex Basis needs to be explicitly set to 0 for flexbox to work in Safari
-  -webkit-flex: $_grow $_shrink $_basis;
-  -ms-flex: $_grow $_shrink $_basis;
   flex: $_grow $_shrink $_basis;
 }
 
@@ -83,21 +76,21 @@ hr.ccss-break {
   margin-left: 10px;
   margin-right: 10px;
   border-style: none;
-  border-bottom: 1px solid gray;
+  border-bottom: 1px solid #808080;
 }
 hr.ccss-break.medium {
   margin-top: 25px;
   margin-bottom: 25px;
   margin-left: 50px;
   margin-right: 50px;
-  border-bottom: 1px solid gray;
+  border-bottom: 1px solid #808080;
 }
 hr.ccss-break.small {
   margin-top: 20px;
   margin-bottom: 20px;
   margin-left: 90px;
   margin-right: 90px;
-  border-bottom: 1px solid lightgray;
+  border-bottom: 1px solid #d3d3d3;
 }
 
 // Width & Height
