@@ -180,6 +180,22 @@ hr.ccss-break.small {
   height: 95%;
 }
 
+.h-75 {
+  height: 75%;
+}
+
+.h-50 {
+  height: 50%;
+}
+
+.h-25 {
+  height: 25%;
+}
+
+.h-20 {
+  height: 20%;
+}
+
 .h-15 {
   height: 15%;
 }
@@ -406,7 +422,7 @@ hr.ccss-break.small {
   font-size: 280%;
 }
 
-p, i, label, button, input, body {
+p, i, label, button, input, textarea, body {
   font-family: 'Helvetica', 'Arial', sans-serif;
   font-weight: 100;
 }
@@ -509,7 +525,8 @@ Custom Styles
   text-align: center;
 }
 
-input[type="text"] {
+input[type="text"],
+textarea {
   font-size: 16px;
   border: 1px solid #cdcdcd;
   border-radius: 4px;
@@ -519,11 +536,13 @@ input[type="text"] {
   padding-bottom: 5px;
 }
 
-input[type="text"].round {
+input[type="text"].round,
+textarea.round {
   border-radius: 16px;
 }
 
-input[type="text"]:focus {
+input[type="text"]:focus,
+textarea:focus {
   outline: 0;
 }
 
