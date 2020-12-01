@@ -31,6 +31,8 @@ html, body {
 // TODO: add 0 margin
 .ccss-flex-container-col .ccss-flex-header {
   @include _flex(0, 1);
+  margin-top: 0;
+  margin-bottom: 0;
   border-bottom: 1px solid $colour-base;
 }
 
@@ -41,6 +43,8 @@ html, body {
 
 .ccss-flex-container-col .ccss-flex-footer {
   @include _flex(0, 1);
+  margin-top: 0;
+  margin-bottom: 0;
   border-top: 1px solid $colour-base;
 }
 
