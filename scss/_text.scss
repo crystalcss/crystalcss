@@ -68,6 +68,28 @@ a:hover {
   color: $colour-blue;
 }
 
+code {
+  font-family: "Courier New", monospace;
+  border: 1px solid #e6e6e6;
+  border-radius: 4px;
+  background: #ededed;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+code.scrollable {
+  white-space: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
+  display: block;
+}
+
+code.full {
+  display: block;
+}
+
 /*
 Custom Styles
  */
