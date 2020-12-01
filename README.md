@@ -1,9 +1,10 @@
 <p align="center">
-  <img src="https://raw.githack.com/crystalcss/crystalcss/master/.github/crystalcss-tiny.jpg" width="108" height="108" alt="CrystalCSS Logo">
+  <img src="https://cdn.jtw-r.com/crystalcss/img/crystalcss-tiny.jpg" width="108" height="108" alt="CrystalCSS Logo">
 </p>
 
 <h3 align="center">
-  CrystalCSS
+  CrystalCSS<br>
+  <a href="https://badge.fury.io/js/crystalcss"><img src="https://badge.fury.io/js/crystalcss.svg" alt="npm version" height="18"></a>
 </h3>
 
 ---
@@ -14,7 +15,6 @@ Our goal is to help get your website off the ground quickly with minimal styling
 
 ---
 ### Installation
-[![npm version](https://badge.fury.io/js/crystalcss.svg)](https://badge.fury.io/js/crystalcss)
 * Include this in your HTML file:`<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/crystalcss/build/css/crystal.css">`
 * Download using [NPM](https://www.npmjs.com/): `$ npm install crystalcss`
 
