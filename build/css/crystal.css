@@ -26,6 +26,8 @@ html, body {
   -webkit-box-flex: 0;
   -ms-flex: 0 1 0px;
   flex: 0 1 0;
+  margin-top: 0;
+  margin-bottom: 0;
   border-bottom: 1px solid #E6E6E6;
 }
 
@@ -40,6 +42,8 @@ html, body {
   -webkit-box-flex: 0;
   -ms-flex: 0 1 0px;
   flex: 0 1 0;
+  margin-top: 0;
+  margin-bottom: 0;
   border-top: 1px solid #E6E6E6;
 }
 
@@ -518,6 +522,28 @@ a:hover {
   color: #3572D4;
 }
 
+code {
+  font-family: "Courier New", monospace;
+  border: 1px solid #E6E6E6;
+  border-radius: 4px;
+  background: #EDEDED;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+code.scrollable {
+  white-space: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
+  display: block;
+}
+
+code.full {
+  display: block;
+}
+
 /*
 Custom Styles
  */
@@ -525,7 +551,7 @@ Custom Styles
   text-align: center;
 }
 
-input[type="text"], textarea {
+input[type="text"], div[contenteditable="true"], textarea {
   font-size: 16px;
   border: 1px solid #CDCDCD;
   border-radius: 4px;
@@ -535,10 +561,10 @@ input[type="text"], textarea {
   padding-bottom: 5px;
 }
 
-input[type="text"].round, textarea.round {
+input[type="text"].round, div[contenteditable="true"].round, textarea.round {
   border-radius: 16px;
 }
 
-input[type="text"]:focus, textarea:focus {
+input[type="text"]:focus, div[contenteditable="true"]:focus, textarea:focus {
   outline: 0;
 }
