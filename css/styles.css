@@ -45,8 +45,7 @@ code.full {
 
 /* TODO: Clean up this, and unify with .ccss-flexbox elements */
 .example-container {
-  width: 600px;
-  height: 600px;
+  height: 300px;
   border: 2px solid black;
 }
 .example-container h4 {
