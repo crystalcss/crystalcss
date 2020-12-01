@@ -166,6 +166,11 @@
             <div>
               <p>Of course, all of these styles are stackable:</p>
               <button class="ccss-button size-xlarge rounder purple">Super-duper fancy button!</button>
+              <br>
+              <br>
+              <code class="scrollable">
+                &lt;button class="ccss-button size-xlarge rounder purple"&gt;Super-duper fancy button!&lt;/button&gt;
+              </code>
             </div>
           </div>
         </div>
@@ -174,23 +179,69 @@
           <h3>Forms & Input Elements</h3>
           <p>Here is an example of how the different form/input elements look when using CrystalCSS.</p>
           <form>
-            <b>Radio Elements</b><br>
-            <label><input type="radio" name="example">Option One</label><br>
-            <label><input type="radio" name="example" checked>Option Two</label><br>
-            <br>
-            <b>Check Box Elements</b><br>
-            <label><input type="checkbox">Option 1</label><br>
-            <label><input type="checkbox" checked>Option 2</label><br>
-            <br>
-            <b>Button Elements</b><br>
-            <label><input type="button" class="ccss-button" value="Input Button"> Input Button (can use any ccss-button styles!)</label><br>
-            <br>
-            <b>Textbox Elements</b><br>
-            <label><input type="text" placeholder="Normal Textbox"></label><br>
-            <label><input type="text" placeholder="Round Textbox" class="round"></label><br>
-            <br>
-            <b>Text Area Elements</b><br>
-            <label><textarea placeholder="Text Area"></textarea></label> <!-- TODO -->
+            <table>
+              <tr>
+                <td>
+                  <b>Radio Elements</b><br>
+                  <label><input type="radio" name="example">Option One</label><br>
+                  <label><input type="radio" name="example" checked>Option Two</label><br>
+                </td>
+                <td>
+                  <code class="scrollable">
+                    &lt;input type="radio" name="example"&gt;Option One
+                    &lt;input type="radio" name="example" checked&gt;Option Two
+                  </code>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <b>Check Box Elements</b><br>
+                  <label><input type="checkbox">Option 1</label><br>
+                  <label><input type="checkbox" checked>Option 2</label><br>
+                </td>
+                <td>
+                  <code class="scrollable">
+                    &lt;input type="checkbox"&gt;Option 1
+                    &lt;input type="checkbox" checked&gt;Option 2
+                  </code>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <b>Button Elements</b><br>
+                  <label><input type="button" class="ccss-button" value="Input Button"> Input Button (can use any ccss-button styles!)</label><br>
+                </td>
+                <td>
+                  <code class="scrollable">
+                    &lt;input type="button" class="ccss-button" value="Input Button"&gt;
+                  </code>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <b>Textbox Elements</b><br>
+                  <label><input type="text" placeholder="Normal Textbox"></label><br>
+                  <label><input type="text" placeholder="Round Textbox" class="round"></label><br>
+                </td>
+                <td>
+                  <code class="scrollable">
+                    &lt;input type="text" placeholder="Normal Textbox"&gt;
+                    &lt;input type="text" placeholder="Round Textbox"&gt;
+                  </code>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <b>Text Area Elements</b><br>
+                  <label><textarea placeholder="Text Area"></textarea></label>
+                </td>
+                <td>
+                  <code class="scrollable">
+                    &lt;textarea placeholder="Text Area"&gt;&lt;/textarea&gt;
+                  </code>
+                </td>
+              </tr>
+            </table>
           </form>
         </div>
         <hr class="ccss-break small"/>
