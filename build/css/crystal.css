@@ -544,6 +544,18 @@ code.full {
   display: block;
 }
 
+.italic {
+  font-style: italic;
+}
+
+.strikethrough {
+  text-decoration: line-through;
+}
+
+.underline {
+  text-decoration: underline !important;
+}
+
 /*
 Custom Styles
  */
