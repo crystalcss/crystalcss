@@ -170,11 +170,11 @@
   }
 }
 
-.ccss-button.gray {
-  @include colourize($colour-dark-gray);
+.ccss-button.grey {
+  @include colourize($colour-dark-grey);
 
   &.invert {
-    @include colourize_invert($colour-dark-gray);
+    @include colourize_invert($colour-dark-grey);
   }
 }
 
