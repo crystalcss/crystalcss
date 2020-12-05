@@ -7,6 +7,7 @@
 
 @mixin colourize($_colour) {
   background-color: $_colour;
+  border-color: $_colour;
 
   @if (lightness($_colour) > 70) {
     // The colour is light, so we want the text colour to be black
@@ -20,18 +21,64 @@
     // The colour is light enough so we want the hover/click effects to darken the background colour
     &:hover {
       background-color: darken($_colour, 5%);
+      border-color: darken($_colour, 5%);
     }
     &:active {
       background-color: darken($_colour, 10%);
+      border-color: darken($_colour, 10%);
     }
   } @else {
     &:hover {
       background-color: lighten($_colour, 10%);
+      border-color: lighten($_colour, 10%);
     }
     &:active {
       background-color: lighten($_colour, 18%);
+      border-color: lighten($_colour, 18%);
     }
   }
+  &:focus {
+    outline: 0;
+  }
+}
+
+@mixin colourize_invert($_colour) {
+  background-color: transparent;
+  color: $_colour;
+  border-color: $_colour;
+
+  &:hover {
+    @if (lightness($_colour) > 30) {
+      background-color: $_colour;
+    } @else {
+      background-color: lighten($_colour, 10%);
+      border-color: lighten($_colour, 10%);
+    }
+    @if (lightness($_colour) > 70) {
+      // The colour is light, so we want the text colour to be black
+      color: $colour-black;
+    } @else {
+      // The colour is dark, so we want the text colour to be white
+      color: $colour-white;
+    }
+  }
+  &:active {
+    @if (lightness($_colour) > 30) {
+      background-color: darken($_colour, 10%);
+      border-color: darken($_colour, 10%);
+    } @else {
+      background-color: lighten($_colour, 18%);
+      border-color: lighten($_colour, 18%);
+    }
+    @if (lightness($_colour) > 70) {
+      // The colour is light, so we want the text colour to be black
+      color: $colour-black;
+    } @else {
+      // The colour is dark, so we want the text colour to be white
+      color: $colour-white;
+    }
+  }
+
   &:focus {
     outline: 0;
   }
@@ -48,40 +95,87 @@
   font-family: inherit;
   font-size: 16px;
   padding: 0.5em 1em;
-  border: none;
+  border-width: 1px;
+  border-style: solid;
   border-radius: 4px;
+
+  &.invert {
+    @include colourize_invert($colour-base);
+  }
 }
+
+
 
 .ccss-button.red {
   @include colourize($colour-red);
+
+  &.invert {
+    @include colourize_invert($colour-red);
+  }
 }
 
 .ccss-button.orange {
   @include colourize($colour-orange);
+
+  &.invert {
+    @include colourize_invert($colour-orange);
+  }
 }
 
 .ccss-button.yellow {
   @include colourize($colour-yellow);
+
+  &.invert {
+    @include colourize_invert($colour-yellow);
+  }
 }
 
 .ccss-button.green {
   @include colourize($colour-green);
+
+  &.invert {
+    @include colourize_invert($colour-green);
+  }
 }
 
 .ccss-button.light-blue {
   @include colourize($colour-light-blue);
+
+  &.invert {
+    @include colourize_invert($colour-light-blue);
+  }
 }
 
 .ccss-button.blue {
   @include colourize($colour-blue);
+
+  &.invert {
+    @include colourize_invert($colour-blue);
+  }
 }
 
 .ccss-button.purple {
   @include colourize($colour-purple);
+
+  &.invert {
+    @include colourize_invert($colour-purple);
+  }
 }
 
 .ccss-button.black {
   @include colourize($colour-black);
+
+  &.invert {
+    @include colourize_invert($colour-black);
+  }
+}
+
+.ccss-button.gray {
+  @include colourize($colour-dark-gray);
+
+  &.invert {
+    @include colourize_invert($colour-dark-gray);
+  }
 }
 
 // Border radius
