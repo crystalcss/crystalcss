@@ -47,3 +47,11 @@ code.full {
   margin: 0;
   border-bottom: 2px solid black !important;
 }
+
+.bkg-change {
+  background-color: #111111;
+}
+
+.pad {
+  padding: 2px;
+}
