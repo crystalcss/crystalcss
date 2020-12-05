@@ -556,6 +556,26 @@ code.full {
   text-decoration: underline !important;
 }
 
+blockquote {
+  margin: 0;
+  padding: 1em 36px;
+  background-color: #E6E6E6;
+  border-left: 4px solid #999999;
+}
+
+ul {
+  margin: 0;
+  font-size: 14px;
+  padding-top: 0.7em;
+  padding-right: 0.7em;
+  padding-left: 2em;
+  padding-bottom: 0.7em;
+}
+
+ul li {
+  margin-bottom: 0.3em;
+}
+
 /*
 Custom Styles
  */
