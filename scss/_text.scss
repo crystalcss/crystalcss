@@ -109,6 +109,19 @@ blockquote {
   border-left: 4px solid $colour-gray
 }
 
+ul {
+  margin: 0;
+  font-size: 14px;
+  padding-top: 0.7em;
+  padding-right: 0.7em;
+  padding-left: 2em;
+  padding-bottom: 0.7em;
+}
+
+ul li {
+  margin-bottom: 0.35em;
+}
+
 /*
 Custom Styles
  */
