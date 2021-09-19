@@ -1,4 +1,10 @@
 input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="date"],
+input[list],
 div[contenteditable="true"],
 textarea {
   font-size: 16px;
@@ -15,5 +21,19 @@ textarea {
 
   &:focus {
     outline: 0;
+  }
+
+  &.group-position {
+    &.-left {
+      border-bottom-right-radius: 0;
+      border-top-right-radius: 0;
+    }
+    &.-middle {
+      border-radius: 0;
+    }
+    &.-right {
+      border-bottom-left-radius: 0;
+      border-top-left-radius: 0;
+    }
   }
 }
