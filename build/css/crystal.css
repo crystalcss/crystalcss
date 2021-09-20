@@ -275,6 +275,20 @@ hr.ccss-break.small {
   outline: 0;
 }
 
+.ccss-button.group-position.-left {
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.ccss-button.group-position.-middle {
+  border-radius: 0;
+}
+
+.ccss-button.group-position.-right {
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+}
+
 .ccss-button.red {
   background-color: #D43535;
   border-color: #D43535;
@@ -842,7 +856,7 @@ Custom Styles
   text-align: center;
 }
 
-input[type="text"], div[contenteditable="true"], textarea {
+input[type="text"], input[type="password"], input[type="email"], input[type="number"], input[type="search"], input[type="date"], input[list], div[contenteditable="true"], textarea {
   font-size: 16px;
   border: 1px solid #CDCDCD;
   border-radius: 4px;
@@ -852,10 +866,49 @@ input[type="text"], div[contenteditable="true"], textarea {
   padding-bottom: 5px;
 }
 
-input[type="text"].round, div[contenteditable="true"].round, textarea.round {
+input[type="text"].round, input[type="password"].round, input[type="email"].round, input[type="number"].round, input[type="search"].round, input[type="date"].round, input[list].round, div[contenteditable="true"].round, textarea.round {
   border-radius: 16px;
 }
 
-input[type="text"]:focus, div[contenteditable="true"]:focus, textarea:focus {
+input[type="text"]:focus, input[type="password"]:focus, input[type="email"]:focus, input[type="number"]:focus, input[type="search"]:focus, input[type="date"]:focus, input[list]:focus, div[contenteditable="true"]:focus, textarea:focus {
   outline: 0;
+}
+
+input[type="text"].group-position.-left, input[type="password"].group-position.-left, input[type="email"].group-position.-left, input[type="number"].group-position.-left, input[type="search"].group-position.-left, input[type="date"].group-position.-left, input[list].group-position.-left, div[contenteditable="true"].group-position.-left, textarea.group-position.-left {
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+}
+
+input[type="text"].group-position.-middle, input[type="password"].group-position.-middle, input[type="email"].group-position.-middle, input[type="number"].group-position.-middle, input[type="search"].group-position.-middle, input[type="date"].group-position.-middle, input[list].group-position.-middle, div[contenteditable="true"].group-position.-middle, textarea.group-position.-middle {
+  border-radius: 0;
+}
+
+input[type="text"].group-position.-right, input[type="password"].group-position.-right, input[type="email"].group-position.-right, input[type="number"].group-position.-right, input[type="search"].group-position.-right, input[type="date"].group-position.-right, input[list].group-position.-right, div[contenteditable="true"].group-position.-right, textarea.group-position.-right {
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+}
+
+span.tag {
+  background-color: #E6E6E6;
+  font-size: 16px;
+  border: 1px solid #CDCDCD;
+  border-radius: 4px;
+  padding-top: 5px;
+  padding-right: 9px;
+  padding-left: 9px;
+  padding-bottom: 5px;
+}
+
+span.tag.group-position.-left {
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+}
+
+span.tag.group-position.-middle {
+  border-radius: 0;
+}
+
+span.tag.group-position.-right {
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
 }
