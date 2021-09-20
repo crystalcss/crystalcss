@@ -116,9 +116,14 @@
       border-top-left-radius: 0;
     }
   }
+
 }
 
-
+label.ccss-button {
+  &>input {
+    display: none;
+  }
+}
 
 .ccss-button.red {
   @include colourize($colour-red);
