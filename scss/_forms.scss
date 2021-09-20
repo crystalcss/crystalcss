@@ -37,3 +37,28 @@ textarea {
     }
   }
 }
+
+span.tag {
+  background-color: $colour-base;
+  font-size: 16px;
+  border: 1px solid darken($colour-base, 10%);
+  border-radius: 4px;
+  padding-top: 5px;
+  padding-right: 9px;
+  padding-left: 9px;
+  padding-bottom: 5px;
+
+  &.group-position {
+    &.-left {
+      border-bottom-right-radius: 0;
+      border-top-right-radius: 0;
+    }
+    &.-middle {
+      border-radius: 0;
+    }
+    &.-right {
+      border-bottom-left-radius: 0;
+      border-top-left-radius: 0;
+    }
+  }
+}
