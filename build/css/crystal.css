@@ -289,6 +289,10 @@ hr.ccss-break.small {
   border-top-left-radius: 0;
 }
 
+label.ccss-button > input {
+  display: none;
+}
+
 .ccss-button.red {
   background-color: #D43535;
   border-color: #D43535;
